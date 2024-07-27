@@ -3,13 +3,13 @@
 
 ## _Introduction_ ##
 
-This article describes a seven segment, 2.3 inch large display, that shows the time and date. Hardware is ready to show temperature, just cooding need to be modified.
+This article describes a seven segment, 2.3 inch large display, that shows the time and date. Hardware is ready to show temperature, just coding need to be modified.
 
- The exact time and date are obtained from the Network Time Protocol via WiFi. 
+The exact time and date are obtained from the Network Time Protocol via Wi-Fi. 
 For a smaller display, about 0.8 inch schematic diagram is very simple. 
-Problems are with large segments, containing more LEDs in series. In this case, the required voltage is higher than 5V. It is necessary to use some additional components and a special power supply.
+Problems are with large segments, containing more LEDs in series. In this case, the required voltage is higher than 5V. There's  necessary to use some additional components and a special power supply.
 
-The main component is an ESP32 D1 mini, a microprocessor and Maxim ICs: MAX7219 and two MAX333 components. The entire circuit is connected using the recommended connection from the Maxim Datasheet. The power supply is a DC-DC converter 5V to dual voltage +5V, GND, -5V.
+The main components are microprocessor ESP32 D1 mini, and some Maxim IC's: MAX7219 and two MAX333 components. The entire circuit is connected using the recommended connection from the Maxim Datasheet. The power supply is a DC-DC converter 5V to dual voltage +5V, GND, -5V.
 
 The construction is simple, all electronic parts, including displays, are mounted on one PCB board.
 

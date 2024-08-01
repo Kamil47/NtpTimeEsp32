@@ -1,4 +1,4 @@
-// A simple NTP based clock for ESP32
+// A simple NTP based clock for ESP32, D1mini
 // Original project uses two displays to show the time and data.
 // This project uses one display, for time just,date could be simply added by software
 // Decimal points are used to separate hours, minutes and seconds.
